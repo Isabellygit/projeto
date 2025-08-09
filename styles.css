@@ -111,3 +111,53 @@ body {
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        box-shadow: none;
+        backdrop-filter: none;
+        background: rgba(0,0,0,0.3);
+    }
+
+    .wrapper h1 {
+        font-size: 28px;
+    }
+
+    .input-box {
+        height: 45px;
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 10px 40px 10px 12px;
+        border-radius: 30px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+        right: 12px;
+    }
+
+    .remember-forgot {
+        font-size: 13px;
+        margin: 0 0 15px;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+    }
+
+    .wrapper .btn {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .register-link {
+        font-size: 13px;
+        margin: 15px 0;
+    }
+}
